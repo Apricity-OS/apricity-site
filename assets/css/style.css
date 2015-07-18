@@ -1288,7 +1288,6 @@ a:focus {
 
 /* Services Wrap */
 .service {
-	padding: 7%;
 	margin: 0px;
 	height: 250;
 	width: 100%;
@@ -1304,6 +1303,7 @@ a:focus {
 	
 }
 #service-download {
+	padding: 7%;
 	background: #2196F3;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1316,6 +1316,7 @@ a:focus {
 	color: white;
     }
 #service-resource {
+	padding: 7%;
 	background: url(../img/2.png) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1328,6 +1329,7 @@ a:focus {
 	color: white;
     }
 #service-ice {
+	padding: 7%;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1339,6 +1341,7 @@ a:focus {
     background-size: cover;
 	}
 #service-pushbullet {
+	padding: 7%;
 	background: url(../img/1.png) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1351,6 +1354,7 @@ a:focus {
 	color: white;
 	}
 #service-wine {
+	padding: 7%;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1362,6 +1366,7 @@ a:focus {
     background-size: cover;
 	}
 #service-btsync {
+	padding: 7%;
 	background: url(../img/3.png) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1374,6 +1379,7 @@ a:focus {
 	color: white;
 	}
 #service-sbackup {
+	padding: 7%;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1385,6 +1391,7 @@ a:focus {
     background-size: cover;
 	}
 #service-liquidprompt {
+	padding: 7%;
 	background: url(../img/4.png) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1397,6 +1404,7 @@ a:focus {
 	color: white;
 	}
 #service-apps {
+	padding: 7%;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1408,6 +1416,7 @@ a:focus {
     background-size: cover;
 	}
 #service-hidpi {
+	padding: 7%;
 	background: url(../img/5.png) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1420,6 +1429,7 @@ a:focus {
 	color: white;
 	}
 #service-security {
+	padding: 7%;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1431,6 +1441,7 @@ a:focus {
     background-size: cover;
 	}
 #service-updates {
+	padding: 7%;
 	background: url(../img/6.png) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1442,6 +1453,22 @@ a:focus {
     background-size: cover;
 	color: white;
 	}
+#service-screenshots {
+	padding: 4%;
+	background-color: #efefef;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+.screenshot-img{
+width:500px;
+}
 
 /* Portfolio Wrap */
 #portfoliowrap {
