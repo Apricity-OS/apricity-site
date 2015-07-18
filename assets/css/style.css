@@ -22,7 +22,8 @@
 	} 
 #slider {
 	position: relative;
-	height: 700px;
+	height: 600px;
+	margin-top:30px;
 }
 #Logopicture {
 margin-top: 5px;
@@ -148,11 +149,11 @@ color: #424;
 
 .demo-2 .sl-slider h2,
 .demo-2 .sl-slider blockquote {
-	padding: 100px 30px 10px 30px;
+	padding: 20px 30px 10px 30px;
 	width: 80%;
 	max-width: 960px;
 	color: #fff;
-	margin: 0 auto;
+	margin: 0 0 0 0;
 	position: relative;
 	z-index: 100;
 }
@@ -164,7 +165,7 @@ color: #424;
 
 .demo-2 .sl-slider blockquote {
 	font-size: 28px;
-	padding-top: 10px;
+	padding-top: 00px;
 	font-weight: 300;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
 	color: #fff;
@@ -176,13 +177,13 @@ color: #424;
 	font-style: normal;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	padding-top: 30px;
+	padding-top: 00px;
 	display: inline-block;
 	color: #fff;
 }
 
 .demo-2 .bg-img {
-	padding: 200px;
+	padding: 150px;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
