@@ -268,10 +268,13 @@
 	background: #fff;
 }
 
+#slide1 {
+	background: #000;
+}
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #000;
+	background: #fff;
 }
 
 .demo-1 .bg-2 [data-icon]:after,
