@@ -22,13 +22,15 @@
 	} 
 #slider {
 	position: relative;
-	height: 600px;
+	height: 700px;
 	margin-top:30px;
 }
 #Logopicture {
-margin-top: 5px;
-margin-left: 12px;
-width: 180px;
+position:absolute;
+margin-top: 10px;
+margin-left: 10px;
+padding:0px;
+width: 140px;
 
 }
 #Logopicture1 {
@@ -72,7 +74,7 @@ background: url(../img/btsync.png) no-repeat center;
 	position: relative;
 }
 #download1 a{
-color: #d9d9d9;
+color: #efefef;
 }
 
 .download-button {
@@ -137,14 +139,14 @@ filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccfffff
 
 
 #download1 a:hover{
-color: #444;
+color: #fff;
 }
 #download2 a{
-color: #d9d9d9;
+color: #efefef;
 }
 
 #download1 a:hover{
-color: #424;
+color: #fff;
 }
 
 .demo-2 .sl-slider h2,
@@ -767,7 +769,7 @@ body {
 }
 
 a {
-	color: #555;
+	color: #dedede;
 	text-decoration: none;
 }
 
@@ -1113,26 +1115,26 @@ a:focus {
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background:#2B2E31;
+	background:#2196F3;
 }
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:#2B2E31;
+	background:#2196F3;
 }
 
 .centered {
-	text-align: center
+	text-align: center;
 }
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
-	padding-top: 10px;
+	min-height: 50px;
+	padding: 0px;
 	margin-bottom: 0px;
-	box-shadow: 3px 3px 5px rgba(100,100,100,.5);
+	box-shadow: 0px 3px 5px rgba(100,100,100,.5);
 	
 	
 	
@@ -1166,7 +1168,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,1);
 	
 }
 
@@ -1304,7 +1306,7 @@ a:focus {
 	
 }
 #service-download {
-	padding: 7%;
+	padding: 50px;
 	background: #2196F3;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1317,8 +1319,8 @@ a:focus {
 	color: white;
     }
 #service-resource {
-	padding: 7%;
-	background: url(../img/2.png) no-repeat center top;
+	padding: 50px;
+	background: url(../img/2.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1330,7 +1332,7 @@ a:focus {
 	color: white;
     }
 #service-ice {
-	padding: 7%;
+	padding: 50px;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1342,8 +1344,8 @@ a:focus {
     background-size: cover;
 	}
 #service-pushbullet {
-	padding: 7%;
-	background: url(../img/1.png) no-repeat center top;
+	padding: 50px;
+	background: url(../img/1.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1355,7 +1357,7 @@ a:focus {
 	color: white;
 	}
 #service-wine {
-	padding: 7%;
+	padding: 50px;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1367,8 +1369,8 @@ a:focus {
     background-size: cover;
 	}
 #service-btsync {
-	padding: 7%;
-	background: url(../img/3.png) no-repeat center top;
+	padding: 50px;
+	background: url(../img/3.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1380,7 +1382,7 @@ a:focus {
 	color: white;
 	}
 #service-sbackup {
-	padding: 7%;
+	padding: 50px;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1392,8 +1394,8 @@ a:focus {
     background-size: cover;
 	}
 #service-liquidprompt {
-	padding: 7%;
-	background: url(../img/4.png) no-repeat center top;
+	padding: 50px;
+	background: url(../img/4.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1405,7 +1407,7 @@ a:focus {
 	color: white;
 	}
 #service-apps {
-	padding: 7%;
+	padding: 50px;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1417,8 +1419,8 @@ a:focus {
     background-size: cover;
 	}
 #service-hidpi {
-	padding: 7%;
-	background: url(../img/5.png) no-repeat center top;
+	padding: 50px;
+	background: url(../img/5.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1430,7 +1432,7 @@ a:focus {
 	color: white;
 	}
 #service-security {
-	padding: 7%;
+	padding: 50px;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1442,8 +1444,8 @@ a:focus {
     background-size: cover;
 	}
 #service-updates {
-	padding: 7%;
-	background: url(../img/6.png) no-repeat center top;
+	padding: 50px;
+	background: url(../img/6.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;

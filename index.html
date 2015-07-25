@@ -22,6 +22,8 @@
 	<link href="css/slider1.css" rel="stylesheet">
 	<link href="css/slider2.css" rel="stylesheet">
 	<link href="css/slider3.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/gallery.theme.css">
+<link rel="stylesheet" href="assets/css/gallery.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -47,13 +49,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <img src="assets/img/Apricitylogo.png" alt="" id="Logopicture">
+         <a href="https://apricityos.com/"><img src="assets/img/apricity-logo.png" alt="" id="Logopicture"></a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">HOME</a></li>
             <li><a href="https://apricityos.com/forum">FORUM</a></li>
-            <li><a href="https://apricityos.com/blog">BLOG</a></li>
+            <li><a href="http://apricityos.com/blog">BLOG</a></li>
             <li><a href="https://apricityos.com/store">STORE</a></li>
 <li><a href="https://www.patreon.com/apricity?ty=h">SUPPORT US</a></li>
            
@@ -67,72 +69,54 @@
 	 ***************************************************************************************************************** -->
 	
 	<!-- start: 1st Page - Home -->
-	<div id="home">
-
-		<div class="demo-1">
-
-	        <div id="slider" class="sl-slider-wrapper">
-
-				<div class="sl-slider">
-
-					<div class="sl-slide bg-1"  data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-						<div class="sl-slide-inner" id = "slide1">
-						
-							<div class="deco" data-icon="" id = "Logopicture1"></div>
-							<h2>Apricity OS</h2>
-							<blockquote><p>Welcome to Apricity OS, a modern, intuitive operating system for the cloud generation of computing. We believe that an operating system should be easy to use, easily accessible, and beautifully designed. We have also incorporated software in order to minimize security risk as much as possible.</p></blockquote></div>
-					</div>
-
-					<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-						<div class="sl-slide-inner" id = "slide2">
-							<div class="deco" data-icon="" id = "ice-ico"></div>
-							<h2>ICE</h2>
-							<blockquote><p>Apricity OS lets you put your favorite web apps on the desktop with ICE. This helps minimize the number of steps between you wanting to use your favorite web app and you actually using it. This embodies our vision here at Apricity: we want to help make your workspace, and your playspace, more productive and elegant.</p></blockquote>
-						</div>
-					</div>
-
-					<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-						<div class="sl-slide-inner" id = "slide3">
-							<div class="deco" data-icon="" id = "btsync-ico"></div>
-							<h2>BtSync</h2>
-							<blockquote><p>With Apricity OS, you can sync large amounts data across multiple platforms. BtSync can transfer large files up to 16 times faster than cloud based alternatives. Furthermore, your files and personal information are stored only on local devices, not in the cloud, and are encrypted along every step in the file transfer process.</p></blockquote>
-						</div>
-					</div>
-
-				<nav id="nav-arrows" class="nav-arrows">
-					<span class="nav-arrow-prev">Previous</span>
-					<span class="nav-arrow-next">Next</span>
-				</nav>
-
-				
-
-			</div><!-- /slider-wrapper -->
-
-	    </div>
-
-	</div>
 
 
-<!--	<div id="headerwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h3>Show your work with this beautiful theme</h3>
-					<h1>Eyecatching Bootstrap 3 Theme.</h1>
-					<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-					<h5>More Lorem Ipsum added here too.</h5>				
-				</div>
-				<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="assets/img/browser.png" class="img-responsive">
-				</div>
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /headerwrap --> 
+<div id="home">
+	  <div class ="service" id = "service-slider">
+	 	<div class="container">
+ 			<div class="row centered">
+ 				<div>
+ 					<div class="gallery autoplay items-3">
+  <div id="item-1" class="control-operator"></div>
+  <div id="item-2" class="control-operator"></div>
+  <div id="item-3" class="control-operator"></div>
 
-	<!-- *****************************************************************************************************************
-	 SERVICE LOGOS
-	 ***************************************************************************************************************** -->
-	  <div class ="service" id = "service-download">
+  <figure class="item">
+    <br>
+    <br>
+    <img src="assets/img/apricity-laptop.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:800px;">
+    <p>Welcome to Apricity OS, a modern, intuitive operating system for the cloud generation of computing. We believe that an operating system should be easy to use, easily accessible, and beautifully designed. We have also incorporated software in order to minimize security risk as much as possible.</p>
+  </figure>
+
+  <figure class="item">
+    <br>
+    <br>
+    <img src="assets/img/apricity-laptop-ice.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:800px;">
+    <p>Apricity OS lets you put your favorite web apps on the desktop with ICE, a simple SSB (Site Specific Browser) manager. These specialized browsers minimize the number of steps between you wanting to use your favorite web app and you actually using it. This simply improves your digital computing experience.</p>
+  </figure>
+
+  <figure class="item">
+    <br>
+    <br>
+    <img src="assets/img/apricity-laptop-btsync.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:800px;">
+    <p>BtSync allows you to share large amounts data across multiple platforms allowing to be as connected as possible. Furthermore, your files and personal information are stored only on local devices, not in the cloud, and are encrypted along every step in the file transfer process.</p>
+  </figure>
+  </figure>
+  <div class="controls">
+    <a href="#item-1" class="control-button">•</a>
+    <a href="#item-2" class="control-button">•</a>
+    <a href="#item-3" class="control-button">•</a>
+  </div>
+</div>
+ 					
+ 				</div>
+ 				 				
+	 		</div>
+	 	</div><! --/container -->
+	 </div><! --/service -->
+
+
+<div class ="service" id = "service-download">
 	 	<div class="container">
  			<div class="row centered">
  				<div>
@@ -206,7 +190,7 @@
  				<div>
  					<i class="fa fa-refresh"></i>
  					<h4>BTSYNC</h4>
- 					<p>BtSync allows you to share large amounts data across multiple platforms allowing to be as connected as possible. BtSync can transfer large files up to 16 times faster than cloud-based alternatives. Furthermore, your files and personal information are stored only on local devices, not in the cloud, and is encrypted along every step in the file transfer process.</P>
+ 					<p>BtSync allows you to share large amounts data across multiple platforms allowing to be as connected as possible. BtSync can transfer large files up to 16 times faster than cloud-based alternatives. Furthermore, your files and personal information are stored only on local devices, not in the cloud, and are encrypted along every step in the file transfer process.</P>
  					
  				</div>
  				 				
@@ -291,31 +275,7 @@
 	 		</div>
 	 	</div><! --/container -->
 	 </div><! --/service -->
-	 	 <div class = "service" id ="service-screenshots">
-	 	<div class="container">
- 			<div class="row centered">
- 				<div>
- 					<i class="fa fa-search"></i>
- 					<h4>SCREENSHOTS</h4>
-<br>
- 					<a href=assets/img/Screenshot1.png><img class='screenshot-img' src="assets/img/Screenshot1.png" alt="Installation"></a>
-<br><br>
- 					<a href=assets/img/Screenshot2.png><img class='screenshot-img' src="assets/img/Screenshot2.png" alt="Desktop"></a>
-<br><br>
- 					<a href=assets/img/Screenshot3.png><img class='screenshot-img' src="assets/img/Screenshot3.png" alt="Terminal"></a>
-<br><br>
- 					<a href=assets/img/Screenshot4.png><img class='screenshot-img' src="assets/img/Screenshot4.png" alt="File Manager"></a>
-<br><br>
- 					<a href=assets/img/Screenshot5.png><img class='screenshot-img' src="assets/img/Screenshot5.png" alt="Libreoffice"></a>
-<br><br>
- 					<a href=assets/img/Screenshot6.png><img class='screenshot-img' src="assets/img/Screenshot6.png" alt="Netflix"></a>
-<br><br>
- 					<a href=assets/img/Screenshot7.png><img class='screenshot-img' src="assets/img/Screenshot7.png" alt="BtSync"></a>
- 				</div>
- 				 				
-	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+	 	 
 	<!--************************
 	<!--******************************************************************************************
 	 PORTFOLIO SECTION
