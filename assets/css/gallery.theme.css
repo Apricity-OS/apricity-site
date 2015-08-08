@@ -1,11 +1,25 @@
 .gallery .control-button {
   color: #ccc;
   color: rgba(0, 0, 0, 0.4);
+  text-decoration:none;
+  border:none;
 }
 
 .gallery .control-button:hover {
   color: #ccc;
   color: rgba(0, 0, 0, 0.8);
+  text-decoration:none;
+  border:none;
+}
+
+.gallery a a:hover a:focus a:active{
+  text-decoration: none;
+  border:none;
+}
+
+.controls a a:hover a:active{
+  text-decoration:none;
+  border:none;
 }
 
 /*
@@ -50,7 +64,7 @@
 	padding-left: 7%;
 	padding-right: 7%;
 	padding-bottom: 1%;
-	padding-top: 70px;;
+	padding-top: -20px;;
 	background-color: #fff;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -61,3 +75,41 @@
     -o-background-size: cover;
     background-size: cover;
 	}
+#service-header {
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 1%;
+	padding-top: 5%;
+	background-color: #fff;
+	font-family:'Open Sans',sans-serif;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+#logo-header {
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-bottom: 2%;
+	padding-top: 0%;
+	background-color: #fff;
+	font-family:'Open Sans',sans-serif;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+#service-header h3{
+	font-family:'Open Sans',sans-serif;
+	font-weight: 400;
+}

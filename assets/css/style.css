@@ -88,8 +88,8 @@ color: #ababab;
   display: inline-block;
   height: 50px;
   line-height: 50px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 22px;
+  padding-left: 22px;
   position: relative;
   background-color:#f9f9f9;
   color: #666;
@@ -126,41 +126,51 @@ border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
 border-right: 1px solid  rgba(0,0,0,0.15);
   color:#666;
+  text-decoration:none;
 }
 
 .download-button:hover span, .download-button.active span {
   background-color:rgb(0,102,26);
   border-right: 1px solid  rgba(0,0,0,0.3);
   color:#666;
+  text-decoration:none;
 }
 
 .download-button:hover{
 color:#444;
+  text-decoration:none;
 }
 .download-button:focus{
 color:#444;
+  text-decoration:none;
 }
 
 .download-button a:hover{
 color:#444;
+  text-decoration:none;
 }
 .download-button a:focus{
 color:#444;
+  text-decoration:none;
 }
 .download-button a:link{
 color:#666;
+  text-decoration:none;
 }
 
 .download-button a:active{
 color:#444;
+  text-decoration:none;
 }
 .download-button a:visited{
 color:#666;
+  text-decoration:none;
 }
 .download-button:active {
   margin-top: 2px;
   margin-bottom: 13px;
   color:#666;
+  text-decoration:none;
 
   -moz-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
 -webkit-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
@@ -1131,8 +1141,10 @@ img {
 a { 
 	padding: 0;
 	margin: 0;
-	color: #d9d9d9;
+	color: #fff;
 	text-decoration: none; 
+	border-bottom: 1px solid currentcolor;
+	font-family: 'Open Sans',sans-serif;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -1167,7 +1179,8 @@ a:focus {
 	min-height: 50px;
 	padding: 0px;
 	margin-bottom: 0px;
-	box-shadow: 0px 3px 5px rgba(100,100,100,.5);
+	border:none;
+	/*box-shadow: 0px 3px 5px rgba(100,100,100,.5);*/
 	
 	
 	
@@ -1175,33 +1188,44 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	font-weight: 400;
+	border:none;
 	
 }
 
 
 .navbar-header .navbar-brand {
 	color: #666666;
+	border:none;
 
+}
+
+.social-media-icons{
+border:none;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #666666;
-	font-weight: 700;
-	font-size: 12px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	border:none;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
 	color: #2196F3;
+	border:none;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #222;
 	background-color: transparent;
+	border:none;
 }
 
 .navbar-default {
 	background-color: rgba(255,255,255,1);
+	border:none;
 	
 }
 
@@ -1328,6 +1352,7 @@ a:focus {
 	height: 250;
 	width: 100%;
 	font-weight: 500;
+	font-family:'Open Sans',sans-serif;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1338,9 +1363,20 @@ a:focus {
     background-size: cover;
 	
 }
+
+.service h4{
+	font-weight: 500;
+	font-family:'Open Sans',sans-serif;
+}
+
+.service p{
+	font-weight: 500;
+	font-family:'Open Sans',sans-serif;
+}
+
 #service-download {
 	padding: 70px;
-	background: #2196F3;
+	background: url(../img/material.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
