@@ -1377,7 +1377,7 @@ border:none;
 
 #service-download {
 	padding: 70px;
-	background: #2196F3;
+	background: url(http://apricityos.com/assets/img/material.jpg) no-repeat center top;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
