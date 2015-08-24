@@ -88,14 +88,15 @@ color: #ababab;
   display: inline-block;
   height: 50px;
   line-height: 50px;
-  padding-right: 22px;
-  padding-left: 22px;
+  width: 150px;
   position: relative;
   background-color:#f9f9f9;
   color: #666;
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 15px;
+  /*margin-left: 5px;*/
+  margin-right: 5px;
   
   
   border-radius: 5px;
