@@ -33,6 +33,18 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+<?php
+
+header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+
+header('Cache-Control: no-store, no-cache, must-revalidate');
+
+header('Cache-Control: post-check=0, pre-check=0', FALSE);
+
+header('Pragma: no-cache');
+
+?>
     
   </head>
 
@@ -97,22 +109,22 @@
   <figure class="item">
     <br>
     <br>
-    <img src="assets/img/apricity-laptop.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:1600px;">
+    <img src="assets/img/Apricity-Screenshots/apricity-laptop-nautilus.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:1600px;">
     <p>Welcome to Apricity OS, a modern, intuitive operating system for the cloud generation of computing. We believe that an operating system should be easy to use, easily accessible, and beautifully designed. We have also incorporated software in order to minimize security risk as much as possible.</p>
   </figure>
 
   <figure class="item">
     <br>
     <br>
-    <img src="assets/img/apricity-laptop-ice.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:1600px;">
-    <p>Put your favorite web apps on the desktop with ICE, a simple SSB (Site Specific Browser) manager. These specialized browsers minimize the number of steps between you wanting to use your favorite web app and you actually using it. This simply improves your digital computing experience.</p>
+    <img src="assets/img/Apricity-Screenshots/apricity-laptop-pushbullet.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:1600px;">
+    <p>Staying connected between your devices can be tedious work, but Apricity OS comes with Pushbullet, a tool that lets you send links and small files between your devices, and lets you receive mobile notifications, texts, and phone calls across all your devices.</p>
   </figure>
 
   <figure class="item">
     <br>
     <br>
-    <img src="assets/img/apricity-laptop-syncthing.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:1600px;">
-    <p>Syncthing allows you to share large amounts data across multiple platforms allowing to be as connected as possible. Furthermore, your files and personal information are stored only on local devices, not in the cloud, and are encrypted along every step in the file transfer process.</p>
+    <img src="assets/img/Apricity-Screenshots/apricity-laptop-powerline.jpg" alt="Apricity on a laptop" style=padding-left:7%;padding-right:7%;width:100%;max-width:1600px;">
+    <p>Powerline-Shell, an adaptive and beautiful terminal prompt, brings the console into the modern world. Have all the most powerful computing tools available at your fingertips, with all the information you need beautifully displayed just a glance away. Naturally, Powerline is included in Apricity OS.</p>
   </figure>
   </figure>
   <div class="controls">
@@ -135,11 +147,11 @@
  				<div>
  					<i class="fa fa-download"></i>
  					<h4>DOWNLOAD</h4>
-<p>MD5SUM: fc4c59395e269005e447b06134747d93</p>
-<p id="download"><a class='download-button piwik_download' href="https://sourceforge.net/projects/apricityos/files/apricity_os-09.2015-beta.iso/download">Download</a></p>
-<p id="download"><a class='download-button piwik_download' href="http://apricityos.com/iso/apricity_os-09.2015-beta.torrent">Torrent</a></p>
+<p>MD5SUM: 9139f1b83d346ea948d1351fd00f75be</p>
+<p id="download"><a class='download-button piwik_download' href="https://sourceforge.net/projects/apricityos/files/apricity_os-11.2015-beta.iso/download">Download</a></p>
+<p id="download"><a class='download-button piwik_download' href="http://apricityos.com/iso/apricity_os-11.2015-beta.torrent">Torrent</a></p>
 <h6>Note: Apricity OS does not support 32-Bit machines at this time.</h6>
-<p>After downloading Apricity OS, you may check the ISO's integrity using the appropriate md5sum listed above the download link. This can be done using the command 'md5sum /path/to/the/apricity/os/iso'. Afterwards, we recommend that you write the ISO to a flash drive using <a href="https://github.com/openSUSE/imagewriter/">Image Writer</a> (Linux), <a href="http://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/">this tutorial</a> (Mac OS X), or <a href=" http://sourceforge.net/projects/usbwriter/">USBWriter</a> (Windows). Before doing anything else, we strongly recommend that you make a backup of any important files as data loss is always possible when adjusting partitions on a storage device. After this, if you are on a PC, we recommend that you disable Secure Boot in the BIOS of your machine. Instructions on entering the BIOS vary from device to device, but generally one must press a particular function key, often F12, while the device is showing its splash screen. Keep in mind that some devices, especially older ones, do not have a Secure Boot option at all, meaning that no BIOS options should need to be changed. To boot from the flash drive, find which key must be pressed while your device is showing its splash screen in order to select a boot device then reboot, press it, and select your flash drive. If you are on a Mac, you may boot from the flash drive by rebooting your computer, then waiting until after the reboot chime to press and hold the "Option" key. Note that the flash drive may be incorrectly labeled as "Windows". Regardless of what kind of computer you have, once the flash drive has booted, you may follow the on-screen instructions. Keep in mind that if you are booting the flash drive with UEFI and have elected to use advanced partitioning, you must create a FAT32 formated partition set to be mounted at /boot/efi. If you have any problems at any point while following these instructions, don't hesitate to post your questions or comments on the <a href="http://apricityos.com/forum">forum</a>. Otherwise, feel free to share your love for Apricity OS on our forum.</p>
+<p>After downloading Apricity OS, you may check the ISO's integrity using the appropriate md5sum listed above the download link. This can be done using the command 'md5sum /path/to/the/apricity/os/iso' or the command 'md5 /path/to/the/apricity/os/iso'. Afterwards, we recommend that you write the ISO to a flash drive using <a href="https://github.com/openSUSE/imagewriter/">Image Writer</a> (Linux), <a href="http://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/">this tutorial</a> (Mac OS X), or <a href=" http://sourceforge.net/projects/usbwriter/">USBWriter</a> (Windows). Before doing anything else, we strongly recommend that you make a backup of any important files as data loss is always possible when adjusting partitions on a storage device. After this, if you are on a PC, we recommend that you disable Secure Boot in the BIOS of your machine. Instructions on entering the BIOS vary from device to device, but generally one must press a particular function key, often F12, while the device is showing its splash screen. Keep in mind that some devices, especially older ones, do not have a Secure Boot option at all, meaning that no BIOS options should need to be changed. To boot from the flash drive, find which key must be pressed while your device is showing its splash screen in order to select a boot device then reboot, press it, and select your flash drive. If you are on a Mac, you may boot from the flash drive by rebooting your computer, then waiting until after the reboot chime to press and hold the "Option" key. Note that the flash drive may be incorrectly labeled as "Windows". Regardless of what kind of computer you have, once the flash drive has booted, you may follow the on-screen instructions. Keep in mind that if you are booting the flash drive with UEFI and have elected to use advanced partitioning, you must create a FAT32 formated partition set to be mounted at /boot/efi. If you have any problems at any point while following these instructions, don't hesitate to post your questions or comments on the <a href="http://apricityos.com/forum">forum</a>. Otherwise, feel free to share your love for Apricity OS on our forum.</p>
  					
  				</div>
  				 				
@@ -241,8 +253,8 @@
  			<div class="row centered">
  				<div>
  					<i class="fa fa-edit"></i>
- 					<h4>LIQUID PROMPT</h4>
- 					<p>Apricity OS utilizes Liquid Prompt, an adaptive bash prompt that makes your terminal more informative and beautiful.</p>
+ 					<h4>POWERLINE-SHELL</h4>
+ 					<p>Powerline-Shell, an adaptive and beautiful terminal prompt, brings the console into the modern world. Have all the most powerful computing tools available at your fingertips, with all the information you need beautifully displayed just a glance away. Naturally, Powerline is included in Apricity OS.</p>
  					
  				</div>
  				 				
