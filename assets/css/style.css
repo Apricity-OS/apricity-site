@@ -1246,6 +1246,7 @@ h5,
 h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+    font-size: 14px;
 }
 
 p {
@@ -1443,7 +1444,8 @@ a:focus {
 #headerwrap h3,
 h5 {
 	color: white;
-	font-weight: 400;
+	font-weight: 500;
+    font-size: 16px;
 }
 
 #headerwrap h1 {
